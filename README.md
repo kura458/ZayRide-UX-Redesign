@@ -2,7 +2,7 @@
 
 An Android UI/UX redesign concept for **ZayRide**, developed as part of the SENG4061 UI/UX assignment at Debre Berhan University.
 
-The project explores a clearer passenger ride-booking experience through a small Android prototype and supporting design documentation.
+The project explores a clearer passenger ride-booking experience through an Android prototype and supporting design documentation.
 
 ## Project overview
 
@@ -12,11 +12,23 @@ The prototype focuses on three redesigned screens:
 2. **Home / find a ride screen** — presents pickup and destination information.
 3. **Choose your ride screen** — presents ride options and an estimated fare before confirmation.
 
-## Screens and references
+## Redesigned screen previews
 
-The repository includes the original reference screenshots in `ScreenShuts/`. These are reference materials, not the redesigned prototype screens.
+These images are the redesigned prototype screens included in this repository.
 
-> Add or update redesigned screen images in the repository before linking them here. This avoids broken image paths and keeps reference screenshots clearly separate from the redesign.
+| Welcome screen | Home screen |
+|---|---|
+| ![ZayRide redesigned welcome screen](screenshots/01-welcome-redesign.png) | ![ZayRide redesigned home screen](screenshots/02-home-redesign.png) |
+
+**Ride selection screen**
+
+![ZayRide redesigned booking screen](screenshots/03-booking-redesign.png)
+
+[View all redesigned screenshots](https://github.com/kura458/ZayRide-UX-Redesign/tree/main/screenshots)
+
+## Original reference screenshots
+
+The original reference screenshots are stored separately in `ScreenShuts/`. They are reference materials, not the redesigned prototype screens.
 
 ## Objectives
 
@@ -44,7 +56,8 @@ ZayRide-UX-Redesign/
 │       └── src/main/
 │           ├── java/com/kura/zayrideredesign/
 │           └── res/
-├── ScreenShuts/          # Original reference screenshots
+├── screenshots/             # Redesigned prototype screenshots
+├── ScreenShuts/              # Original reference screenshots
 ├── CRITIQUE.md
 ├── PROPOSAL.md
 ├── RESOURCES.md
