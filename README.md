@@ -1,232 +1,83 @@
-# \# ZayRide Passenger — UI/UX Redesign
+# ZayRide Passenger — UI/UX Redesign
 
-# 
+An Android UI/UX redesign concept for **ZayRide**, developed as part of the SENG4061 UI/UX assignment at Debre Berhan University.
 
-# An Android UI/UX redesign concept for \*\*ZayRide\*\*, an Ethiopian ride-booking service.
+The project explores a clearer passenger ride-booking experience through a small Android prototype and supporting design documentation.
 
-# 
+## Project overview
 
-# This project is part of the SENG4061 UI/UX assignment at Debre Birhan University.
+The prototype focuses on three redesigned screens:
 
-# 
+1. **Welcome screen** — introduces the application and provides a starting action.
+2. **Home / find a ride screen** — presents pickup and destination information.
+3. **Choose your ride screen** — presents ride options and an estimated fare before confirmation.
 
-# \## Project Overview
+## Screens and references
 
-# 
+The repository includes the original reference screenshots in `ScreenShuts/`. These are reference materials, not the redesigned prototype screens.
 
-# This project explores how the passenger ride-booking experience can be presented through a clear, consistent, and accessible Android interface.
+> Add or update redesigned screen images in the repository before linking them here. This avoids broken image paths and keeps reference screenshots clearly separate from the redesign.
 
-# 
+## Objectives
 
-# The prototype focuses on three redesigned screens:
+- Improve visual hierarchy and readability.
+- Organize important ride-booking information.
+- Use consistent colors, typography, spacing, and buttons.
+- Apply accessibility principles to interactive elements.
+- Build Android interface layouts using XML.
 
-# 
+## Technologies and tools
 
-# 1\. \*\*Welcome Screen\*\* — introduces the application and provides a starting action.
+- Android Studio
+- Java
+- XML layouts
+- Android drawable resources
+- Gradle
+- Git and GitHub
 
-# 2\. \*\*Home / Find a Ride Screen\*\* — presents pickup and destination information.
+## Project structure
 
-# 3\. \*\*Choose Your Ride Screen\*\* — presents ride options and an estimated fare before confirmation.
+```text
+ZayRide-UX-Redesign/
+├── android-design/
+│   └── app/
+│       └── src/main/
+│           ├── java/com/kura/zayrideredesign/
+│           └── res/
+├── ScreenShuts/          # Original reference screenshots
+├── CRITIQUE.md
+├── PROPOSAL.md
+├── RESOURCES.md
+└── README.md
+```
 
-# 
+## Run the Android prototype
 
-# \## Redesigned Screens
+1. Clone this repository.
+2. Open the `android-design` folder in Android Studio.
+3. Allow Gradle to sync.
+4. Start an Android emulator.
+5. Run the app.
 
-# 
+Package name: `com.kura.zayrideredesign`.
 
-# \### 1. Welcome Screen
+## Scope and limitations
 
-# 
+This is an academic UI prototype. It demonstrates interface design and basic screen navigation; it does not provide production ride booking, live GPS tracking, driver matching, payment processing, or backend services.
 
-# !\[Welcome Screen](screenshots/01-welcome-redesign.png)
+The original Passenger application was not installed and tested directly. Historical screenshots are used as references and do not establish that the original app is currently operational.
 
-# 
+## Documentation
 
-# \### 2. Home Screen
+- [CRITIQUE.md](CRITIQUE.md) — UI/UX evaluation.
+- [PROPOSAL.md](PROPOSAL.md) — redesign proposal and scope.
+- [RESOURCES.md](RESOURCES.md) — references and tools used.
 
-# 
+## Author
 
-# !\[Home Screen](screenshots/02-home-redesign.png)
+**Kura Lemma**  
+Software Engineering Student  
+Debre Berhan University
 
-# 
-
-# \### 3. Booking Screen
-
-# 
-
-# !\[Booking Screen](screenshots/03-booking-redesign.png)
-
-# 
-
-# \## Original Reference Screenshots
-
-# 
-
-# The `ScreenShuts/` folder contains the historical reference screenshots used during the redesign.
-
-# 
-
-# These are reference materials, not redesigned screens.
-
-# 
-
-# \## Objectives
-
-# 
-
-# \- Improve visual hierarchy and readability.
-
-# \- Organize important ride-booking information.
-
-# \- Use consistent colors, typography, spacing, and buttons.
-
-# \- Apply accessibility principles to interactive elements.
-
-# \- Build Android interface layouts using XML.
-
-# 
-
-# \## Technologies and Tools
-
-# 
-
-# \- Android Studio
-
-# \- Java
-
-# \- XML Layouts
-
-# \- Android Drawable Resources
-
-# \- Gradle
-
-# \- Git and GitHub
-
-# 
-
-# \## Project Structure
-
-# 
-
-# ```text
-
-# ZayRide-UX-Redesign/
-
-# ├── android-design/
-
-# │   └── app/
-
-# │       └── src/main/
-
-# │           ├── java/com/kura/zayrideredesign/
-
-# │           └── res/
-
-# ├── screenshots/
-
-# │   ├── 01-welcome-redesign.png
-
-# │   ├── 02-home-redesign.png
-
-# │   └── 03-booking-redesign.png
-
-# ├── ScreenShuts/
-
-# │   └── Original reference screenshots
-
-# ├── CRITIQUE.md
-
-# ├── PROPOSAL.md
-
-# ├── RESOURCES.md
-
-# └── README.md
-
-# ```
-
-# 
-
-# \## Running the Prototype
-
-# 
-
-# 1\. Clone this repository.
-
-# 2\. Open the `android-design` folder in Android Studio.
-
-# 3\. Allow Gradle to sync.
-
-# 4\. Start an Android emulator.
-
-# 5\. Run the application.
-
-# 
-
-# The Android package name is `com.kura.zayrideredesign`.
-
-# 
-
-# \## Reference Application
-
-# 
-
-# The redesign uses archived ZayRide Passenger screenshots and publicly available information as reference materials.
-
-# 
-
-# \- Official website: https://www.zayride.com/
-
-# \- Archived application listing: https://chrome-stats.com/d/com.zayride.passenger
-
-# \- Alternative archived listing: https://www.appbrain.com/app/zayride-passenger/com.zayride.passenger
-
-# 
-
-# \*\*Evaluation limitation:\*\* The original Passenger application was not installed or tested directly. Archived screenshots are historical references and do not establish that the application is currently operational.
-
-# 
-
-# \## Prototype Limitations
-
-# 
-
-# This project is a static Android UI prototype. It does not implement real-time maps, GPS, driver matching, live ride booking, payments, or backend services.
-
-# 
-
-# The prototype demonstrates interface design and basic screen navigation only.
-
-# 
-
-# \## Documentation
-
-# 
-
-# \- \[CRITIQUE.md](CRITIQUE.md) — UI/UX evaluation.
-
-# \- \[PROPOSAL.md](PROPOSAL.md) — redesign proposal and scope.
-
-# \- \[RESOURCES.md](RESOURCES.md) — references and tools used.
-
-# 
-
-# \## Author
-
-# 
-
-# \*\*Kura Lemma\*\*  
-
-# Software Engineering Student  
-
-# Debre Birhan University
-
-# 
-
-# \## Acknowledgment
-
-# 
-
-# This project was developed for academic learning and to demonstrate the application of UI/UX design principles to an Ethiopian transportation service.
-
-
-
+---
+*An academic project applying user-centered design principles to an Ethiopian transportation experience.*
